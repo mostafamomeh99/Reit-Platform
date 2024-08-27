@@ -1,0 +1,285 @@
+#exampleInputEmail1,#exampleInputPassword1,#exampleInputname1{
+    width: 400px;
+  }
+
+  @media only screen and (max-width: 991px){
+    .navbar-collapse{
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+    .navbar-nav{
+      margin-left: auto;
+    }
+  }
+  
+  .navbar-toggler{
+    color: black;
+    background-color: white;
+  }
+ 
+
+#mainphoto{
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+#maindialg{
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+/* transform: translate(170%,-180%); */
+top: 160px;
+right: 20px;
+/* transform: translate(-20px, 160px); */
+}
+
+#most{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+  span#carousel-control-prev-icon{
+    color: black;
+    background-color: black;
+  }
+  #x,#signup{
+    width:110px;
+    font-size:24px
+  }
+  #parsignup{
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  #x2,#x3,#x4{
+    font-size: 23px;
+    color:white
+  }
+  #x2.nav-link.active {
+    color: rgb(185, 182, 182); /* Change color to red for active link */
+    font-weight: 800; /* Add bold font weight for active link */
+  }
+
+  #basic-nav-dropdown{
+    color: white;
+    font-size: 23px;
+
+  }
+  #x200:hover{
+background-color: rgb(129, 128, 128);
+font-size: 20px;
+  }
+ 
+  #x2:hover,#x3:hover,#x4:hover,#basic-nav-dropdown:hover{
+    font-weight: 800;
+  }
+  #x2.active,#x3.active{
+    color: rgba(1, 2, 29, 0.897);
+    font-weight: 800;
+  }
+
+  .left-icon{
+    border: none;
+background-color: gray ;
+  }
+.right-icon{
+  border: none;
+  background-color: gray ;
+}
+.carxx1{
+  height: 200px;
+  cursor: pointer;
+}
+div.swiper-button-prev-custom.swiper-button-disabled, div.swiper-button-next-custom.swiper-button-disabled{
+  display: none;
+}
+
+.swiper-button-prev-custom {
+  position: absolute;
+  top: 48%;
+  transform: translateY(-48%);
+  z-index: 2;
+  cursor: pointer;
+  color: white
+}
+div.prev{
+  z-index: 10;
+  position: absolute;
+  height: 200px;
+  width: 30px;
+  top: 48%;
+  transform: translateY(-48%);
+  background-color: white;
+  opacity: 0.2;
+  border-radius: 2px;
+}
+div.next{
+  z-index: 10;
+  position: absolute;
+  height: 200px;
+  width: 30px;
+  top: 48%;
+  right: 0;
+  transform: translateY(-48%);
+  background-color: white;
+  opacity: 0.2;
+  border-radius: 2px;
+}
+
+.swiper-button-next-custom {
+  position: absolute;
+  right: 0;
+  top: 48%;
+  transform: translateY(-48%);
+  z-index: 2;
+  cursor: pointer;
+  color: white
+}
+
+#compound222{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+  body{
+     
+    font-family:  sans-serif;
+
+    background-color: gray
+  }
+
+  .form-label{
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .navbar{
+    background-color: rgba(250, 235, 215, 0.822);
+  }
+  #v1,#v2{
+    direction: rtl;
+    margin-right: 25px;
+    font-weight: 800;
+  }
+
+  .mango2{
+   border: solid 8px rgb(241, 239, 239);
+    margin-left: 70px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .mango2:hover{
+    border: solid 8px rgb(136, 133, 133);
+  }
+  .card{
+width: 18rem;
+  }
+  .card-x{
+    width: 800px
+      }
+  .card-text{
+    font-weight: 600;
+   margin-bottom: 5px;
+  }
+
+  #linkdetail{
+    text-align: center;
+  }
+  #imgcar1,#imgcar2,#imgcar3{
+    height: 300px;
+    width: 286px;
+    cursor: pointer;
+  }
+  #imgcar-x1,#imgcar-x2,#imgcar-x3{
+    height: 450px;
+    width: 800px;
+    cursor: pointer;
+  }
+
+  #done{
+    font-size: 19px;
+  }
+
+ #invaild2{
+transform: translateY(0) translateX(270px);
+font-size: 16px;
+  }
+  #invaild1{
+    transform: translateY(0) translateX(260px);
+    font-size: 16px;
+      }
+      #invaild3{
+        transform: translateY(0) translateX(250px);
+        font-size: 16px;
+          }
+          #invaild4{
+            transform: translateY(0) translateX(250px);
+            font-size: 16px;
+              }
+              #invaild5{
+                transform: translateY(0) translateX(265px);
+                font-size: 16px;
+              }
+
+              #first{
+                direction: rtl;
+              }
+
+
+    /* file input 4 */
+    .file-label {
+      display: block;
+      font-size: 16px;
+      color: #343a40; /* Dark text color */
+      margin-bottom: 10px; /* Space between the label and the file input */
+  }
+  
+  input[type="file"] {
+      opacity: 0;
+      height: 40px;
+      cursor: pointer;
+  }
+  .file-input-wrapper{
+    margin-top: -20px;
+  }
+  .file-input-text {
+      display: inline-block;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ced4da; /* Light border color */
+      border-radius: 4px; /* Slightly rounded corners */
+      background-color: #2e2d2d; /* White background for the button */
+      color: #ebeef1; /* Text color */
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: -150px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the button */
+      transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .file-input-text:hover {
+      background-color: #838485; /* Slightly darker background on hover */
+  }
+  
+  .file-input-text:active {
+      background-color: #dee2e6; /* Even darker background on active state */
+  }
+  
+  .file-name {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #495057; /* Text color for the file name display */
+  }
+  .remove-button{
+    color: #dee2e6;
+    background-color: #2e2d2d;
+    margin-left:5px ;
+  }

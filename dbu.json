@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "ahmed.abdelkader@gmail.com",
+      "password": 111111,
+      "username": "ahmed",
+      "id": "1"
+    },
+    {
+      "email": "mostafa.osama@gmail.com",
+      "password": 111111,
+      "username": "mostafa",
+      "id": "2"
+    },
+    {
+      "email": "youssef.bayad@gmail.com",
+      "password": 111111,
+      "username": "youssef",
+      "id": "3"
+    },
+    {
+      "id": "71a0",
+      "email": "eng.mohamed@gmail.com",
+      "username": "momo",
+      "password": 555555
+    }
+  ]
+}
